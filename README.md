@@ -5,6 +5,16 @@ This project is a CLI based ticket viewer application. It has the following feat
 
  1. View all tickets in a paginated list 
  2. Search for single ticket by a ticket id
+ 
+ ## Project Structure Overview 
+ 
+ This project has been designed with a Model Controller View project structure
+ 
+ * Model: gathers data from Zendesk API and manages pagination 
+ * Controller: managers flow of the program and contains core logic
+ * View: displays data to the user 
+  
+ 
 
 
 ### Prerequisites

@@ -33,12 +33,10 @@ class AppController:
     def handle_search(self):
         total_ticket_list = self.get_total_ticket_list()
         self.manage_search_single_ticket(total_ticket_list)
-        return 0
 
     def handle_view(self):
         total_ticket_list = self.get_total_ticket_list()
         self.view_all_tickets(total_ticket_list)
-        return 0
 
     def display_main_menu(self):
         while True:
@@ -54,7 +52,6 @@ class AppController:
             else:
                 self.view.invalid_input_error_message()
             self.input = ""
-            return 0
 
     def manage_view_all_tickets(self, total_ticket_list, pages):
         while True:

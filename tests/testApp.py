@@ -11,6 +11,7 @@ from model.appModel import AppModel
 
 
 class TestView(unittest.TestCase):
+    # test to display basic functions of view
     def test_view(self):
         view = AppView()
         self.assertEqual(view.opening_message(), 0)
