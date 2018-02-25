@@ -27,7 +27,6 @@ class AppModel:
             return 0
         return ticket
 
-
     def get_all_tickets(self):
         self.url = "https://" + self.org + ".zendesk.com/api/v2/tickets.json"
         if self.tickets == None or not self.tickets:
