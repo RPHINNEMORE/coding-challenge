@@ -16,7 +16,6 @@ This project is a CLI based ticket viewer application. It has the following feat
   
  
 
-
 ### Prerequisites
 
 
@@ -29,12 +28,12 @@ This project is a CLI based ticket viewer application. It has the following feat
 
  Set up virtual env:
 1. python -m pip install --user virtualenv
-2. cd <project_path>
-3. mkdir <project_name>
-4. cd <project_name>
-5. In terminal virtualenv env
-6. source env/bin/activate
-7. pip install -r requirements.txt 
+2. git clone - https://github.com/RPHINNEMORE/ZendeskCodingChallenge2018
+3. cd <project_path>    
+4. In terminal virtualenv env
+5. source env/bin/activate
+6. pip install -r requirements.txt 
+
 
 
 ### Running Program 
