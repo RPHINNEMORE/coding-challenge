@@ -1,4 +1,4 @@
-# Zendesk Coding Challenge 2018 
+# Coding Challenge 
 
 This project is a CLI based ticket viewer application. It has the following features:
  
